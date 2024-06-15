@@ -47,7 +47,6 @@ header {
 
 .header-content_last img {
     margin-right: 25px;  
-
 }
 .header-content_last a:last-of-type {
     background-color: var(--green);
@@ -55,7 +54,6 @@ header {
     color: #fff;
     padding: 15px 34px;
     border-radius: 133px;
-
     transition: background-color .5s ease;
 }
 
@@ -68,7 +66,6 @@ header {
     margin-right: 45px;
     color: var(--black);
     display: inline-block;
-    
     transition: all .5s ease;
  }
 
@@ -104,7 +101,6 @@ header {
     padding: 10px 34px;
     border-radius: 126px;
     display: inline-block;
-
     margin-bottom: 22px;
  }
 
@@ -114,14 +110,12 @@ header {
     font-family: "Raleway", sans-serif;
     line-height: 110%;
     font-weight: 700;
-
     margin-bottom: 30px;
  }
 
  .main-content p {
     color: var(--brown);
     line-height: 200%;
-
     margin-bottom: 77px;
  }
 
@@ -133,7 +127,6 @@ header {
     color: #fff;
     margin-right: 23px;
     display: inline-block;
-
     transition: transform .5s ease;
  }
 
@@ -144,7 +137,6 @@ header {
     text-decoration: none;
     color: #fff;
     display: inline-block;
-    
     transition: transform .5s ease;
 }
 
@@ -155,7 +147,6 @@ header {
 .main-content_buttons a:hover {
     transform: scale(1.05);
  }
-
 
 
  /* Welcome */
@@ -181,7 +172,6 @@ header {
     font-family: "Tinos", serif;
     line-height: 110%;
     font-weight: 700;
-
     margin-bottom: 60px;
 }
 
@@ -192,7 +182,6 @@ header {
 .welcome-inner p {
     color: var(--brown);
     line-height: 200%;
-
     margin-bottom: 122px;
 }
 
@@ -203,7 +192,6 @@ header {
     text-decoration: none;
     color: #fff;
     display: inline-block;
-    
     transition: transform .5s ease;
 }
 
@@ -226,7 +214,6 @@ header {
     font-family: "Tinos", serif;
     line-height: 200%;
     font-weight: 700;
-
     margin-bottom: 60px;
 }
 
@@ -234,7 +221,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     margin-bottom: 60px;
 }
 
@@ -245,7 +231,6 @@ header {
     text-decoration: none;
     padding: 17px 64px;
     border-radius: 162px;
-
     transition: background-color .5s ease;
     transition: color .5s ease;
     transition: transform .5s ease;
@@ -274,7 +259,6 @@ header {
     border-radius: 70px;
     text-align: center;
     padding: 35px 29px;
-    
     margin-bottom: 40px;
 }
 
@@ -282,7 +266,6 @@ header {
     font-weight: 600; 
     font-size: 30px;
     line-height: 200%;
-
     margin-bottom: 5px;
 }
 
@@ -314,7 +297,6 @@ header {
 .menu-item_last-price {
     font-weight: 600;
     font-size: 25px;
-
 }
 
 .menu-item_last a {
@@ -324,7 +306,6 @@ header {
     padding: 11px 36px;
     border-radius: 162px;
     font-size: 16px;
-
     transition: background-color .5s ease;
     transition: transform .5s ease;
 }
@@ -352,9 +333,7 @@ header {
     color: #fff;
     height: 55px;
     width: 55px;
-
     position: relative;
-
     margin-right: 30px;
 }
 
@@ -372,9 +351,7 @@ header {
     color: var(--orange);
     border-radius: 15px;
     text-decoration: none;
-
     position: relative;
-
     margin-right: 15px;
 }
 
@@ -389,9 +366,7 @@ header {
 
 .dot {
     color: #B7A28B;
-
     position: relative;
-
 }
 
 .dot span {
@@ -409,9 +384,7 @@ header {
     color: #fff;
     height: 55px;
     width: 55px;
-
     position: relative;
-
     margin-left: 46px;
 }
 
@@ -427,12 +400,10 @@ header {
 
 /* Reservation */
 
-
 .reservation-container {
     height: 1056px;
     background-color: rgba(255, 244, 231, 0.5);
 } 
-
 
 .reservation-content {
     display: flex;
@@ -453,16 +424,13 @@ header {
     transform: translate(-590%, 270%);
 }
 
-
 .reservation-text h2 {
     margin-top: 231px;
-
     color: var(--black);
     font-size: 80px;
     font-family: "Tinos", serif;
     line-height: 110%;
     font-weight: 700;
-
     margin-bottom: 50px;
 }
 
@@ -473,7 +441,6 @@ header {
 .reservation-text p {
     color: var(--brown);
     line-height: 200%;
-
     margin-bottom: 132px;
 }
 
@@ -484,7 +451,6 @@ header {
     padding: 17px 55px;
     border-radius: 162px;
     font-size: 20px;
-
     transition: transform .5s ease;
 }
 
