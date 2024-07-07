@@ -400,32 +400,27 @@ header {
 
 /* Reservation */
 
-.reservation-container {
-    height: 1056px;
+.reservation {
+    padding-top: 113px;
+    padding-bottom: 39px;
     background-color: rgba(255, 244, 231, 0.5);
-} 
+}
+
+.reservation .container {
+    min-width: 1466px;
+}
+
+.reservation-left {
+    margin-left: -570px;
+}
 
 .reservation-content {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     align-items: center;
 }
 
-.reservation-image_gig { 
-    transform: translate(270%, -120%);
-}
-
-.reservation-image { 
-    width: 883px;
-    transform: translate(-22%, 15%);
-}
-
-.resrvation-image_mini {
-    transform: translate(-590%, 270%);
-}
-
-.reservation-text h2 {
-    margin-top: 231px;
+.reservation-right h2 {
     color: var(--black);
     font-size: 80px;
     font-family: "Tinos", serif;
@@ -434,31 +429,29 @@ header {
     margin-bottom: 50px;
 }
 
-.reservation-text h2 span {
+.reservation-right h2 span {
     color: var(--orange);
 }
 
-.reservation-text p {
+.reservation-right p {
+    font-size: 20px;
     color: var(--brown);
-    line-height: 200%;
+    line-height: 220%;
     margin-bottom: 132px;
 }
 
-.reservation-text a {
+.reservation-right a {
     background-color: var(--orange);
     color: #fff;
     text-decoration: none;
     padding: 17px 55px;
     border-radius: 162px;
-    font-size: 20px;
     transition: transform .5s ease;
 }
 
-.reservation-text a:hover {
+.reservation-right a:hover {
     transform: scale(1.05);
 }
-
-
 
 
 
