@@ -325,6 +325,12 @@ header {
     height: 55px;
     width: 55px;
     border-radius: 15px;
+    transition: background-color .7s ease;
+}
+
+.menu-pag a:hover {
+    background-color: var(--orange);
+    color: #fff;
 }
 
 .back {
@@ -440,18 +446,75 @@ header {
     margin-bottom: 132px;
 }
 
-.reservation-right a {
+.reservation-all {
     background-color: var(--orange);
     color: #fff;
     text-decoration: none;
     padding: 17px 55px;
     border-radius: 162px;
-    transition: transform .5s ease;
+    transition: background-color .5s ease;
 }
 
-.reservation-right a:hover {
-    transform: scale(1.05);
+.reservation-all:hover {
+    background-color: var(--black);
 }
+
+/* Chefs */
+
+.chefs {
+    padding-top: 175px;
+    padding-bottom: 271px;
+    text-align: center;
+}
+
+.chefs h2 {
+    color: var(--black);
+    font-size: 80px;
+    font-family: "Tinos", serif;
+    line-height: 200%;
+    font-weight: 700;
+    margin-bottom: 135px;
+    text-align: center;
+}
+
+.chefs-inner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.chef-item {
+    text-align: center;
+}
+
+.chef-item h3 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.chef-item p {
+    color: #A08D76;
+    line-height: 200%;
+}
+
+.chefs-all {
+    background-color: var(--orange);
+    color: #fff;
+    text-decoration: none;
+    padding: 17px 78px;
+    border-radius: 162px;
+    font-weight: 600;
+    font-style: 20px;
+    transition: background-color .5s ease;
+}
+
+.chefs-all:hover {
+    background-color: var(--green);
+}
+
 
 
 
