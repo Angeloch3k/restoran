@@ -516,8 +516,77 @@ header {
 }
 
 
+/* Costumers */
 
+.costumers {
+    background-color:rgba(208, 204, 199, 0.1);
+    padding: 71px 0px 99px 0px;
+}
 
+.costumers-inner {
+    background-image: url(../style/customer/Round.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.costumers-title {
+    color: var(--black);
+    font-size: 80px;
+    font-family: "Tinos", serif;
+    line-height: 160px;
+    font-weight: 700;
+    margin-bottom: 57px;
+}
+
+.costumers-about-img {
+    margin-bottom: 41px;
+}
+
+.costumers-about-title {
+    color: var(--black);
+    font-size: 30px;
+    font-family: "Poppins", serif;
+    line-height: 60px;
+    font-weight: 600;
+}
+
+.costumers-about-text {
+    color: var(--brown);
+    font-size: 20px;
+    font-family: "Poppins", serif;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+.costumers-about-inner {
+    position: relative;
+    width: 524px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.costumers-about-inner p {
+    color: var(--brown);
+    font-size: 20px;
+    font-family: "Poppins", serif;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+#dot1 {
+    position: absolute;
+    top: -45px;
+    left: -45px;
+    transform: rotate(180deg);
+}
+
+#dot2 {
+    position: absolute;
+    bottom: -45px;
+    right: -45px;
+}
 
 
 
